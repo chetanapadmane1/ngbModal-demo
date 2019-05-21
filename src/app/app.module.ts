@@ -6,13 +6,11 @@ import { AppComponent } from './app.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './parent/child/child.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ChildModalComponent } from './parent/child-modal/child-modal.component';
 @NgModule({
   declarations: [
     AppComponent,
     ParentComponent,
     ChildComponent,
-    ChildModalComponent
   ],
   imports: [
     BrowserModule,
