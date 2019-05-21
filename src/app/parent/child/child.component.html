@@ -1,0 +1,15 @@
+
+<div #downloadPDFModal>
+  <div class="modal-header">
+    <h2 class="modal-title">Header</h2>
+    <button type="button" class="close" aria-label="Close" (click)="dismiss(downloadPDFModal);" id="closeButton">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="download-contents" #reportContent>
+    <div>
+      data
+    </div>
+  </div>
+  <button (click)='close(reportContent)'>Submit</button>
+</div>
